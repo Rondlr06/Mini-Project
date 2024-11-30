@@ -1,0 +1,171 @@
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+nav li{float: right;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav li a:hover{
+    background-color: cyan;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    text-decoration: underline;
+
+}
+body{
+    font-family: tahoma;
+    text-align: justify;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-image: url(/images/Municipal-Hall-scaled.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+
+img {
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100px;
+    width: 400px;
+}
+
+
+.Main_Content {
+    width: 100%;
+}
+h1{
+    color:  white;
+    font-size: 5em;
+    text-align: center;
+    font-style: italic;
+}
+
+h2{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    font-style: italic;
+}
+  
+nav div .gallery img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    height: 300px;
+    width: 500px;
+}
+body {
+    line-height: 1;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.item {
+    margin: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.item {
+    margin: 5px;
+}
+
+nav div .gallery2 img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    height: 300px;
+    width: 500px;
+}
+body {
+    line-height: 1;
+}
+
+.gallery2 {
+    display: flex;
+}
+
+.gallery2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.item {
+    margin: 5px;
+}
+
+.gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.item {
+    margin: 5px;
+}
+
+h1 {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 3em;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2 {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 2em;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
